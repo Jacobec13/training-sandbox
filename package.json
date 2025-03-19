@@ -1,0 +1,37 @@
+{
+  "name": "training-sandbox",
+  "version": "0.0.1",
+  "description": "Training sandbox consist of pages with training and testing of new technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "22.13.5",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "cross-env": "7.0.3",
+    "fork-ts-checker-webpack-plugin": "9.0.2",
+    "html-webpack-plugin": "5.6.3",
+    "msw": "2.7.1",
+    "prettier": "3.5.2",
+    "ts-loader": "9.5.2",
+    "typescript": "5.7.3",
+    "webpack-cli": "6.0.1",
+    "webpack-dev-server": "5.2.0",
+    "wepback": "1.0.0"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-router": "7.2.0"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
